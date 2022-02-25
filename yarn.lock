@@ -2,16 +2,33 @@
 # yarn lockfile v1
 
 
-"@civ-clone/base-unit-type-fortifiable@^0.1.0":
-  "integrity" "sha512-XzyDdVhKDE83KqW3UV++cjPxCz1ClLdTGf0i3t4JRlp/IcZ8UoyQj6Tk6/rHZ/0bBbQLENgdic9nlFmfb7WZuQ=="
-  "resolved" "https://registry.npmjs.org/@civ-clone/base-unit-type-fortifiable/-/base-unit-type-fortifiable-0.1.0.tgz"
-  "version" "0.1.0"
+"@civ-clone/base-unit-action-sleep@^0.1.0":
+  "integrity" "sha512-H7vzParZr3GNzSmIbCaZ7CExMY9DuHId5xcjZ3teT3OY+sGkIn+b3nOXb1PEzBfBTKZglr/vEg+1nFzUItCRyQ=="
+  "resolved" "https://registry.npmjs.org/@civ-clone/base-unit-action-sleep/-/base-unit-action-sleep-0.1.2.tgz"
+  "version" "0.1.2"
   dependencies:
-    "@civ-clone/base-unit-type-land" "^0.1.0"
+    "@civ-clone/core-rule" "^0.1.0"
+    "@civ-clone/core-turn-based-game" "^0.1.0"
+    "@civ-clone/core-unit" "^0.1.0"
+    "@civ-clone/core-world" "^0.1.0"
 
-"@civ-clone/base-unit-type-land@^0.1.0":
-  "integrity" "sha512-kFY4FhT367K6KSLtfPQQez6NZcYAed69Px3w4qQe8KE6s3xeEtEvHCoaAdhYz0kRZL89m5ZhL5Y3ZgcX8FPsaA=="
-  "resolved" "https://registry.npmjs.org/@civ-clone/base-unit-type-land/-/base-unit-type-land-0.1.0.tgz"
+"@civ-clone/base-unit-type-naval-transport@^0.1.0":
+  "integrity" "sha512-WLSjb0zJuEsO05UIA3h2YoJMlCAe6TTwDKUpmmRhRE5RxVP21SXD08MgYg2KurT54H0ADqT+qjv78iGrVs3GPw=="
+  "resolved" "https://registry.npmjs.org/@civ-clone/base-unit-type-naval-transport/-/base-unit-type-naval-transport-0.1.1.tgz"
+  "version" "0.1.1"
+  dependencies:
+    "@civ-clone/base-unit-action-sleep" "^0.1.0"
+    "@civ-clone/base-unit-type-naval" "^0.1.0"
+    "@civ-clone/core-city" "^0.1.0"
+    "@civ-clone/core-player" "^0.1.0"
+    "@civ-clone/core-rule" "^0.1.0"
+    "@civ-clone/core-unit" "^0.1.0"
+    "@civ-clone/core-unit-transport" "^0.1.0"
+    "@civ-clone/core-world" "^0.1.0"
+
+"@civ-clone/base-unit-type-naval@^0.1.0":
+  "integrity" "sha512-CU1GZF6K4O8KOm/zjEjeYnEFWWoGoJBr+dRFwOcBIU/9Su4ctYwuw+tnimjwzoqQcvmMHdZJc8zkRwPVYw1WKg=="
+  "resolved" "https://registry.npmjs.org/@civ-clone/base-unit-type-naval/-/base-unit-type-naval-0.1.0.tgz"
   "version" "0.1.0"
   dependencies:
     "@civ-clone/core-unit" "^0.1.0"
@@ -92,6 +109,14 @@
     "@civ-clone/core-engine" "^0.1.0"
     "@civ-clone/core-rule" "^0.1.0"
     "@civ-clone/core-yield" "^0.1.0"
+
+"@civ-clone/core-unit-transport@^0.1.0":
+  "integrity" "sha512-/OvicUeAGmcd8FTsx/rDrcylrfSt7nPdbo9rkqDDRAF0G9gV7tRsiTADS6v+6eZQ8myESk58jDTzyVTgkB716A=="
+  "resolved" "https://registry.npmjs.org/@civ-clone/core-unit-transport/-/core-unit-transport-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "@civ-clone/core-registry" "^0.1.0"
+    "@civ-clone/core-unit" "^0.1.0"
 
 "@civ-clone/core-unit@^0.1.0":
   "integrity" "sha512-ix9j2dBndM8+ciftCNnIjgkFhPZCEaCTtjocFQDvw09j5mAO3AUHOEYviSXT8pe4Qyl9UQtAdb9ey2nCae7uxg=="
