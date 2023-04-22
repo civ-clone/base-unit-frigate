@@ -1,4 +1,3 @@
 # base-unit-frigate
 
-This is a template repo.
-
+Contains the `Frigate` `Unit` class.
